@@ -1,18 +1,54 @@
-- name: seb
+seb:
+  name: seb
   avatar: seb.jpg
   image: card-paris.jpg
   title: Seb's home
-  description: Charming room with patio
+  description: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
   city: Paris
-- name: anne
+  wifi: true
+  accomodates: 2
+  bathroom: 1
+  bed_type: Double bed
+  bedrooms: 28
+  beds: 90
+  property_type: Apartment
+  room_type: Entire home/apt
+  kitchen: true
+  tv: true
+  welcome_drinks: true
+anne:
+  name: anne
   avatar: anne.jpg
   image: card-brussels.jpeg
   title: Anna's home
-  description: Charming room with patio
+  description: This one is vla bien et trop belle pour les couples qui ont envie de passer un superbe week-end en amoureux et faire l'amour sous les cocottiers.
   city: Brussels
-- name: romain
+  wifi: false
+  accomodates: 4
+  bathroom: 6
+  bed_type: Single bed
+  bedrooms: 1000
+  beds: 45
+  property_type: House
+  room_type: Half home/apt
+  kitchen: false
+  tv: true
+  welcome_drinks: true
+romain:
+  name: romain
   avatar: romain.jpeg
   image: card-london.jpeg
   title: Romain's home
-  description: Charming room with patio
+  description: Charming room with patio et toutes les commodités qui vont bien haziz ma poule tmtc <3
   city: London
+  wifi: true
+  accomodates: 5
+  bathroom: 4
+  bed_type: Single
+  bedrooms: 65
+  beds: 1000
+  property_type: Apartment
+  room_type: Balek
+  kitchen: true
+  tv: false
+  welcome_drinks: false

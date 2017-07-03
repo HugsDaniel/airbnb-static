@@ -1,6 +1,3 @@
----
-title: Le Wagon Middleman boilerplate
----
 <div class="banner" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
   <div class="banner-content">
     <h1>WELCOME HOME</h1>
@@ -34,9 +31,10 @@ title: Le Wagon Middleman boilerplate
   <div class="container">
     <h2 class="text-center">Your next trip</h2>
     <div class="row">
-      <% data.products.each do |product| %>
+      <% data.infos.each do |product| %>
       <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/<%= product.image %>');">
+        <% link_to "/flats/#{product.name}.html", target: "_blank" do %>
+        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= image_path product.image %>');">
           <div class="card-category"><%= product.city %></div>
           <div class="card-description">
             <h2><%= product.title %></h2>
@@ -44,6 +42,7 @@ title: Le Wagon Middleman boilerplate
           </div>
           <%= image_tag "#{product.avatar}", class: "card-user avatar avatar-large" %>
         </div>
+        <% end %>
       </div>
       <% end %>
     </div>

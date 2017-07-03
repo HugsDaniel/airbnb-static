@@ -1,0 +1,18 @@
+- name: seb
+  avatar: seb.jpg
+  image: card-paris.jpg
+  title: Seb's home
+  description: Charming room with patio
+  city: Paris
+- name: anne
+  avatar: anne.jpg
+  image: card-brussels.jpeg
+  title: Anna's home
+  description: Charming room with patio
+  city: Brussels
+- name: romain
+  avatar: romain.jpeg
+  image: card-london.jpeg
+  title: Romain's home
+  description: Charming room with patio
+  city: London
