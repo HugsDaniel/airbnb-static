@@ -19,7 +19,7 @@ activate :autoprefixer
 end
 
 
-# Per-page layout changes:
+# Per-page layout changes: d
 #
 # With no layout
 # page "/path/to/file.html", :layout => false
