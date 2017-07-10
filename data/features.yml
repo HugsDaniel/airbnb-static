@@ -1,12 +1,6 @@
-- name: Discover the world
-  image: globe.png
-  description: The earth is your new home
-- name: Pay online
-  image: dollar.png
-  description: No cash issues anymore
-- name: Meet people
-  image: beer.png
-  description: Discover new culture and lifestyle.
-- name: Share and love
-  image: heart.png
-  description: Join a community you will love.
+- name: Coworking
+  image: icons_coworking.png
+  description: Un espace de coworking ouvert à tous
+- name: Micro-crèche associative
+  image: creche.png
+  description: Une micro-crèche ouverte à tous
